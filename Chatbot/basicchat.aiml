@@ -1,0 +1,18 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<category>
+<pattern>HELLO I AM *</pattern>
+<template>HELLO <set name="uname"> <star/> </set></template>
+</category>
+<category>
+<pattern>I LIKE * COLOR</pattern>
+<template><star index="1"/> IS A NICE COLOR</template>
+</category>
+<category>
+<pattern>I READ *</pattern>
+<template><star index="1"/> ARE THE BEST</template>
+</category>
+<category>
+<pattern>BYE </pattern>
+<template>BYE <get name="uname"/>THANKS FOR THE CONVERSATION </template>
+</category>
+</aiml>
